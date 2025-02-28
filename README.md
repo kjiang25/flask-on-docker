@@ -20,7 +20,7 @@ This project uses Docker, Flask, Postgres, Gunicorn, and Nginx to create a "mini
 ## Build Instructions
 
 1. To run, first ensure that docker is installed on your machine. Ensure docker has access to the web and install flask. 
-2. To build the production docker image, run 
+2. Clone this repository and cd into it. To build the production docker image, run 
 ```
 $ docker compose -f docker-compose.prod.yml up -d --build
 $ docker compose -f docker-compose.prod.yml exec web python manage.py create_db
