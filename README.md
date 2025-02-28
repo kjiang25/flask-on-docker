@@ -5,10 +5,10 @@ This project uses Docker, Flask, Postgres, Gunicorn, and Nginx to create a "mini
 
 ## In Use
 **Uploading**
-![Alt text](img/Screenshot 2025-02-27 230428.png)
+![Alt text](img/Uploading.png)
 
 **Viewing**
-![Alt text](img/Screenshot 2025-02-27 232931.png)
+![Alt text](img/Viewing.png)
 
 **Gif Uploaded**
 ![Alt text](img/yay.gif)
