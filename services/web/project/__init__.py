@@ -34,6 +34,7 @@ def hello_world():
 def staticfiles(filename):
     return send_from_directory(app.config["STATIC_FOLDER"], filename)
 
+
 @app.route("/media/<path:filename>")
 def mediafiles(filename):
     return send_from_directory(app.config["MEDIA_FOLDER"], filename)
